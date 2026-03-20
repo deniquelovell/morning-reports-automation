@@ -49,7 +49,7 @@ Public Function PickSourceWorksheet(ByVal wb As Workbook, ByVal destName As Stri
     If wb Is Nothing Then Exit Function
 
     Select Case LCase$(destName)
-        Case "enfusion rtg"
+        Case "IMS Real Time Grid"
             Set PickSourceWorksheet = wb.Worksheets(1)
 
         Case "broker position summary", _
